@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    font-family: Avenir;
+}
+
+body {
+    margin: 0;
+}
+
+html {
+    height: 100%;
+    font-size: 100%;
+}
+
+.component {
+    clear: both;
+}
+
+.imgContainer, .intro, .intro-h {
+    float: left;
+}
+
+.imgContainer {
+    width: 300px;
+    margin-bottom: 100px;
+}
+
+.imgContainer img {
+    width: 100%;
+}
+
+.intro {
+    width: 55%;
+    padding-left: 20px;
+}
+
+.intro-h {
+    padding-left: 20px;
+    width: 55%;
+}
+
+.contact-form {
+    height: 500px;
+}
+
+.container {
+    margin: 100px auto;
+}
+
+section.component:last-child {
+    margin-bottom: 0;
+}
+section.component h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+section.component p {
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 300;
+}
+section.component p:last-child {
+    margin-bottom: 0;
+}
+section.component.content {
+    padding: 40px;
+}
+section.component.slider {
+    height: 300px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+section.component.slider h1 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 3em;
+    line-height: 300px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.component.slider-about {
+    background-image: url("https://unsplash.it/1000/1000/?random");
+}
+section.component.slider-work {
+    background-image: url("../images/hardware.jpg");
+}
+section.component.slider-contact {
+    background-image: url("../images/typewriter.jpg");
+}
