@@ -83,7 +83,8 @@ section.component.slider h1 {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.component.slider-about {
-    background-image: url("https://unsplash.it/1000/1000/?random");
+    background-image: url("../images/shiplap2.jpg");
+    /*background-image: url("https://unsplash.it/1000/1000/?random");*/
 }
 section.component.slider-work {
     background-image: url("../images/hardware.jpg");
